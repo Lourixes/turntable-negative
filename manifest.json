@@ -18,7 +18,7 @@
     ],
     "authors": [
       { "name": "Lourixes", "url": "https://github.com/Lourixes" },
-      { "name": "Grason Chan (Turntable, upstream)", "url": "https://github.com/grasonchan" }
+      { "name": "Grason Chan", "url": "https://github.com/grasonchan" }
     ],
     "tags": ["dark", "minimal", "catppuccin", "duotone", "monochrome"]
   },
