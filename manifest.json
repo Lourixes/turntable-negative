@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Turntable Negative",
+    "description": "Catppuccin Mocha recolour of Turntable with inverted duotone cover art and a deliberately quiet interface: no video shelves, no browse artwork, no colour noise.",
+    "preview": "screenshots/preview.png",
+    "readme": "README.md",
+    "usercss": "theme/user.css",
+    "schemes": "theme/color.ini",
+    "include": [
+      "https://lourixes.github.io/turntable-negative/theme/theme.js",
+      "https://lourixes.github.io/turntable-negative/extensions/duotone-covers.js",
+      "https://lourixes.github.io/turntable-negative/extensions/accent-fixups.js",
+      "https://lourixes.github.io/turntable-negative/extensions/hide-videos.js",
+      "https://lourixes.github.io/turntable-negative/extensions/npv-collapse.js",
+      "https://lourixes.github.io/turntable-negative/extensions/playbar-track-options.js",
+      "https://lourixes.github.io/turntable-negative/extensions/home-lazy-shelves.js",
+      "https://lourixes.github.io/turntable-negative/extensions/browse-calm-cards.js"
+    ],
+    "authors": [
+      { "name": "Lourixes", "url": "https://github.com/Lourixes" },
+      { "name": "Grason Chan (Turntable, upstream)", "url": "https://github.com/grasonchan" }
+    ],
+    "tags": ["dark", "minimal", "catppuccin", "duotone", "monochrome"]
+  },
+  {
+    "name": "Duotone Covers",
+    "description": "Renders album and playlist artwork as a two-colour duotone; the original cover returns on hover. One feColorMatrix, pure CSS from there on.",
+    "preview": "screenshots/duotone.png",
+    "main": "extensions/duotone-covers.js",
+    "readme": "README.md",
+    "authors": [{ "name": "Lourixes", "url": "https://github.com/Lourixes" }],
+    "tags": ["covers", "duotone", "monochrome"]
+  },
+  {
+    "name": "Hide Videos",
+    "description": "Hides video podcast episodes and their shelves, plus the 'Similar music videos' section in the Now Playing view. Mixed shelves keep their non-video cards.",
+    "preview": "screenshots/preview.png",
+    "main": "extensions/hide-videos.js",
+    "readme": "README.md",
+    "authors": [{ "name": "Lourixes", "url": "https://github.com/Lourixes" }],
+    "tags": ["video", "declutter"]
+  },
+  {
+    "name": "Home Lazy Shelves",
+    "description": "Renders only the top home shelves and defers the rest until you scroll near them. Measured 45% less style and layout work per recalculation.",
+    "preview": "screenshots/preview.png",
+    "main": "extensions/home-lazy-shelves.js",
+    "readme": "README.md",
+    "authors": [{ "name": "Lourixes", "url": "https://github.com/Lourixes" }],
+    "tags": ["performance", "home"]
+  },
+  {
+    "name": "Browse Calm Cards",
+    "description": "Strips the 27 loud colours and the tilted artwork from the 'Browse all' category tiles. Neutral surfaces, accent colour only on hover.",
+    "preview": "screenshots/browse.png",
+    "main": "extensions/browse-calm-cards.js",
+    "readme": "README.md",
+    "authors": [{ "name": "Lourixes", "url": "https://github.com/Lourixes" }],
+    "tags": ["declutter", "browse"]
+  },
+  {
+    "name": "NPV Collapse",
+    "description": "Hides the right sidebar while it only shows the Now Playing view. Show the queue or devices and it returns at full width. Pure CSS via :has().",
+    "preview": "screenshots/preview.png",
+    "main": "extensions/npv-collapse.js",
+    "readme": "README.md",
+    "authors": [{ "name": "Lourixes", "url": "https://github.com/Lourixes" }],
+    "tags": ["sidebar", "declutter"]
+  },
+  {
+    "name": "Playbar Track Options",
+    "description": "Puts the current track's context menu button in the player bar, so it stays reachable with the right sidebar hidden. Right-click toggles the Now Playing view.",
+    "preview": "screenshots/preview.png",
+    "main": "extensions/playbar-track-options.js",
+    "readme": "README.md",
+    "authors": [{ "name": "Lourixes", "url": "https://github.com/Lourixes" }],
+    "tags": ["playbar", "context-menu"]
+  },
+  {
+    "name": "Accent Fixups",
+    "description": "Removes the leftover Spotify green from Encore button states, pins the home header to the theme colour and aligns a few stray icons. Companion to the Turntable Negative palette.",
+    "preview": "screenshots/preview.png",
+    "main": "extensions/accent-fixups.js",
+    "readme": "README.md",
+    "authors": [{ "name": "Lourixes", "url": "https://github.com/Lourixes" }],
+    "tags": ["accent", "colours"]
+  }
+]

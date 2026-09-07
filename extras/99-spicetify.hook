@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = spotify
+
+[Action]
+Description = Re-applying Spicetify to Spotify...
+When = PostTransaction
+Depends = spicetify-bin
+Exec = /bin/sh -c 'chown -R %USER%:%USER% /opt/spotify && runuser -u %USER% -- env HOME=/home/%USER% /usr/bin/spicetify backup apply'
